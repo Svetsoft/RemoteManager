@@ -1,0 +1,14 @@
+﻿<Application x:Class="RemoteManager.Desktop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Generic.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Fluent;component/Themes/Accents/Violet.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Fluent;component/Themes/Colors/BaseLight.xaml" />
+                <ResourceDictionary Source="/RemoteManager.Themes.ElectricViolet;component/Sessions.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
